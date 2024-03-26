@@ -254,7 +254,7 @@ echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
-wget ${REPO}files/cf.sh && chmod +x cf.sh && ./cf.sh
+wget ${REPO}file/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
 else
@@ -278,7 +278,8 @@ TEXT="
 <code>Ip vps : </code><code>$ipsaya</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
-<i>Automatic Notification from Github</i>
+<i>Automatic Notification from Github
+<b>INSTALL SCRIPT V3 BY : FTP</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/freetunnel1"},{"text":"Contack","url":"https://wa.me/6281927625651"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
