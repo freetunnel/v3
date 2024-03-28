@@ -17,6 +17,7 @@
 - Tambah Swap 1GiB
 - Pemasangan yang dinamis
 - Tuning profile pada server
+- Select Domain From Script/Use Your Domain
 - Xray Core 
 - Penambahan fail2ban
 - Auto block sebagian ads indo by default
@@ -24,6 +25,7 @@
 - Auto deler expired
 - User Details Akun
 - Add Anti DDOS System basic
+- Creat Account From Bot Telegram
 
 ### PORT INFO
 ```
