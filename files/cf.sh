@@ -2,9 +2,9 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 #read -p "Masukan Domain (contoh : Dragon)" domen
-DOMAIN=freetunneling.pw
+DOMAIN=freetunnel.net
 sub=$(</dev/urandom tr -dc a-z | head -c5)
-dns=${sub}.freetunneling.pw
+dns=${sub}.freetunnel.net
 CF_ID=pribadi.no99@gmail.com
 CF_KEY=e706e0ce65fb5c6e233c233e6e2e6614d4aec
 set -euo pipefail
