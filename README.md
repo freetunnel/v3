@@ -10,11 +10,8 @@
 
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install brotli -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/freetunnel/v3/main/main && chmod +x main && ./main
-</code></pre>
+<pre><code>CHAT ME!!!!</code></pre>
 
-### PERINTAH UPDATE 
-<pre><code>wget https://raw.githubusercontent.com/freetunnel/v3/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### FITUR TAMBAHAN
 - Tambah Swap 1GiB
@@ -45,7 +42,13 @@
 - OVPN SSL/TCP 1194
 - SLOWDNS 5300
 ```
+### HARGA SEWA SCRIPT
+```
+1 Bulan 1 IP 10k
+2 Bulan 1 IP 15k
+1 Bulan 2 IP 15k
 
+```
 ### SETTING CLOUDFLARE
 ```
 - SSL/TLS : FULL
