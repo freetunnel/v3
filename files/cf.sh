@@ -2,7 +2,7 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 #read -p "Masukan Domain (contoh : Dragon)" domen
-DOMAIN=freetunnel.net
+DOMAIN=freetunneling.pw
 sub=$(</dev/urandom tr -dc a-z | head -c5)
 dns=${sub}.freetunnel.net
 CF_ID=pribadi.no99@gmail.com
