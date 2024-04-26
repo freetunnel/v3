@@ -6,7 +6,7 @@ DOMAIN=freetunneling.pw
 sub=$(</dev/urandom tr -dc a-z | head -c4)
 dns=${sub}ftp.freetunneling.pw
 CF_ID=pribadi.no99@gmail.com
-CF_KEY=e706e0ce65fb5c6e233c233e6e2e6614d4aec
+CF_KEY=d5277e42edb887377f1ade26354d9fac8c82b
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
